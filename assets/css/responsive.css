@@ -1,0 +1,35 @@
+@media (min-width: 597px) {
+
+    html {
+        font-size: 65%;
+    }
+
+    .content {
+        width: 597px;
+        height: 110rem;
+        margin: 2rem auto 2rem auto;
+        position: relative;
+    }
+
+    .personal-info .profile-image {
+        width: 20rem;
+        height: 20rem;
+    }
+
+    .skills .item {
+        height: 20rem;
+    }
+
+    .projects {
+        
+    row-gap: 3rem;
+    }
+
+    .projects .item {
+        height: 27rem;
+    }
+
+    .projects .item .title {
+        padding: .8rem 0;
+    }
+}
