@@ -27,6 +27,7 @@
 
     .projects .item {
         height: 27rem;
+        opacity: 1;
     }
 
     .projects .item .title {
