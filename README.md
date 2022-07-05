@@ -1,4 +1,4 @@
-<h1 style='font-size: 40px'>Portfólio</h1>
+<h1 style='font-size: 40px'>Portfolio</h1>
 <p style='font-size: 20px'>In this project I developed a portfolio for myself, with it it is possible to access my main projects hosted here on github, in addition to informing about my skills and having access to my other social networks</p>
 <p style='font-size: 15px'>- Design inspiration: <a href="https://github.com/brenimsilva">@brenimsilva</a></p> 
 
