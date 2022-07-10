@@ -25,6 +25,10 @@
 
     .projects .item {
         height: 27rem;
+        opacity: .7;
+    }
+
+    .projects .item:hover {
         opacity: 1;
     }
 

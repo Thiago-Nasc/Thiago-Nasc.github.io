@@ -63,6 +63,18 @@ body {
 .personal-info .profile-name {
     font-size: 2.2rem;
     font-weight: bold;
+    position: relative;
+}
+
+.personal-info .profile-name::after {
+    content: '|';
+    position: absolute;
+    animation: piscar .7s infinite;
+}
+
+@keyframes piscar {
+    0%, 100% {opacity: 1}
+    50% {opacity: 0}
 }
 
 .personal-info .profission {
@@ -191,13 +203,9 @@ body {
     border-radius: 1rem;
     position: relative;
     cursor: pointer;
-    opacity: .7;
+    opacity: 1;
     overflow: hidden;
     transition: all .5s linear;
-}
-
-.projects .item:hover {
-    opacity: 1;
 }
 
 .projects .item1 {
