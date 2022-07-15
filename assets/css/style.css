@@ -209,22 +209,22 @@ body {
 }
 
 .projects .item1 {
-    background-image: url(../images/dictionary.gif);
+    background-image: url(../images/attendancelist.gif);
     background-size: cover;
 }
 
 .projects .item2 {
-    background-image: url(../images/orcamentopessoal.gif);
+    background-image: url(../images/dictionary.gif);
     background-size: cover;
 }
 
 .projects .item3 {
-    background-image: url(../images/calculator.gif);
+    background-image: url(../images/orcamentopessoal.gif);
     background-size: cover;
 }
 
 .projects .item4 {
-    background-image: url(../images/librarymusic.gif);
+    background-image: url(../images/calculator.gif);
     background-size: cover;
 }
 

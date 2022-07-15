@@ -31,26 +31,28 @@ function selecionarItem(item: number) {
     }
 };
 
-function abrirProjeto(n) {
+function abrirProjeto(n: number) {
+
+    switch(n) {}
     if (n == 1) {
-        window.location.href = 'https://github.com/Thiago-Nasc/Dictionary';
+        window.location.href = 'https://github.com/Thiago-Nasc/attendance-list';
     } else if (n == 2) {
-        window.location.href = 'https://github.com/Thiago-Nasc/Personal-Budget';
+        window.location.href = 'https://github.com/Thiago-Nasc/dictionary';
     } else if (n == 3) {
-        window.location.href = 'https://github.com/Thiago-Nasc/Calculator';
+        window.location.href = 'https://github.com/Thiago-Nasc/personal-budget';
     } else if (n == 4) {
-        window.location.href = 'https://github.com/Thiago-Nasc/Music-Library';
+        window.location.href = 'https://github.com/Thiago-Nasc/calculator';
     } else if (n == 5) {
-        window.location.href = 'https://github.com/Thiago-Nasc/Kill-Mosquito';
+        window.location.href = 'https://github.com/Thiago-Nasc/kill-mosquito';
     } else if (n == 6) {
-        window.location.href = 'https://github.com/Thiago-Nasc/Portfolio';
+        window.location.href = 'https://github.com/Thiago-Nasc/portfolio';
     }
 }
 
 function exibirProfileName() {
     let profileName: Obj = document.querySelector('#profile-name');
     let arrayLetras: string[] = profileName!.innerHTML.split('');
-    profileName.innerHTML = '';
+    profileName!.innerHTML = '';
     
     arrayLetras.map((item, indice) => {
         setTimeout(() => {
