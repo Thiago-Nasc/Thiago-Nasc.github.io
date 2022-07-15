@@ -25,6 +25,7 @@ html {
 body {
     background-color: var(--cor-background-primary);
     color: var(--cor-primary);
+    min-height: 100vh;
 }
 
 /* content */
