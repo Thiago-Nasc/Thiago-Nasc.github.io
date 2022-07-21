@@ -215,22 +215,22 @@ body {
 }
 
 .projects .item2 {
-    background-image: url(../images/dictionary.gif);
+    background-image: url(../images/secretWord.gif);
     background-size: cover;
 }
 
 .projects .item3 {
-    background-image: url(../images/orcamentopessoal.gif);
+    background-image: url(../images/dictionary.gif);
     background-size: cover;
 }
 
 .projects .item4 {
-    background-image: url(../images/calculator.gif);
+    background-image: url(../images/orcamentopessoal.gif);
     background-size: cover;
 }
 
 .projects .item5 {
-    background-image: url(../images/matamosquito.gif);
+    background-image: url(../images/calculator.gif);
     background-size: cover;
 }
 

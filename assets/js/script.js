@@ -32,16 +32,16 @@ function abrirProjeto(n) {
         window.location.href = 'https://github.com/Thiago-Nasc/attendance-list';
     }
     else if (n == 2) {
-        window.location.href = 'https://github.com/Thiago-Nasc/dictionary';
+        window.location.href = 'https://github.com/Thiago-Nasc/secret-word';
     }
     else if (n == 3) {
-        window.location.href = 'https://github.com/Thiago-Nasc/personal-budget';
+        window.location.href = 'https://github.com/Thiago-Nasc/dictionary';
     }
     else if (n == 4) {
-        window.location.href = 'https://github.com/Thiago-Nasc/calculator';
+        window.location.href = 'https://github.com/Thiago-Nasc/personal-budget';
     }
     else if (n == 5) {
-        window.location.href = 'https://github.com/Thiago-Nasc/kill-mosquito';
+        window.location.href = 'https://github.com/Thiago-Nasc/calculator';
     }
     else if (n == 6) {
         window.location.href = 'https://github.com/Thiago-Nasc/portfolio';
